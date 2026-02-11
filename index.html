@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Data Peserta</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+        <!-- LOGO -->
+        <div class="logo-area">
+            <img src="assets/kai.png">
+            <img src="assets/operation.png">
+        </div>
+        <!-- JUDUL RESMI -->
+        <div class="header">
+            <h1>KUESIONER PENILAIAN BIMSUH</h1>
+            <p>DIKLAT PENGENDALI PERJALANAN KERETA API<br>
+            ANGKATAN I TAHUN 2026</p>
+        </div>
+        <!-- FORM -->
+<div class="field">
+    <label>Email</label>
+
+    <div class="input-group">
+        <input type="email" id="email">
+        <span class="icon"></span>
+    </div>
+</div>
+
+<div class="field">
+    <label>Nama Bimsuh</label>
+
+    <div class="input-group">
+        <input type="text" id="bimsuh">
+        <span class="icon"></span>
+    </div>
+</div>
+
+<div class="field">
+    <label>Tempat Diklat</label>
+
+    <div class="input-group">
+        <input type="text" id="tempat">
+        <span class="icon"></span>
+    </div>
+</div>
+
+<div class="field">
+    <label>Tanggal Diklat</label>
+
+    <div class="input-group">
+        <input type="date" id="tanggal">
+        <span class="icon"></span>
+    </div>
+</div>
+
+<div class="field">
+    <label>Waktu Pelaksanaan</label>
+
+    <div class="input-group">
+        <input type="text" id="waktu">
+        <span class="icon"></span>
+    </div>
+</div>
+
+
+        <!-- BUTTON -->
+        <div class="nav">
+            <button onclick="nextPage()">Next</button>
+        </div>
+
+        <div id="errorMsg"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
